@@ -1,6 +1,6 @@
 var http = require('http')
 var createHandler = require('github-webhook-handler')
-var handler = createHandler({ path: '/webhook', secret: 'myhashsecret' })
+var handler = createHandler({ path: '/webhook', secret: 'percyff-secret-1942' })
 
 http.createServer(function (req, res) {
   handler(req, res, function (err) {
