@@ -1,6 +1,8 @@
 var http = require('http')
 var createHandler = require('github-webhook-handler')
-var handler = createHandler({ path: '/webhook', secret: 'percyff-secret-1942' })
+var handler = createHandler({ 
+  path: '/webhook', secret: process.env.WEBHOOK_SECRET
+})
 
 // GH API FOR PUSHING
 var GitHubApi = require("github")
