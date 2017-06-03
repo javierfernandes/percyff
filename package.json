@@ -6,6 +6,7 @@
   "author": "Javier Fernandes <javier.fernandes@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "github": "^9.2.0",
     "github-webhook-handler": "^0.6.0"
   }
 }
